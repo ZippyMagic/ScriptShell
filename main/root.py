@@ -1,3 +1,6 @@
-x = 1;
-if x == 1:
-  print("Test");
+data = []
+data.append("*")
+data.append("/")
+data.append("+")
+data.append("-")
+read
