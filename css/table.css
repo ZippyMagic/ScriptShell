@@ -4,6 +4,8 @@
   padding-left: 8px;
   padding-right: 8px;
   border: 2px solid black;
+  border-bottom: none;
+  border-radius: 10px;
 }
 .table {
   position: flex;
