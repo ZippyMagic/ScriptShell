@@ -23,7 +23,7 @@
   100% { transform: rotate(360deg); }
 }
 /* Page content, not loading screen */
-.wrapper-contents {
+#wrapper-contents {
   display: none;
 }
 #wrapper {
