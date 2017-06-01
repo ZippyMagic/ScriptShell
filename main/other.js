@@ -5,5 +5,5 @@ function setTimer() {
 }
 function showPage() {
   document.getElementById("loader").style.display = "none";
-  document.getElementById("wrapper").style.display = "block";
+  document.getElementById("wrapper").style.display = "inline-block";
 }
