@@ -37,3 +37,28 @@ a {
   float: left;
   display: inline-block;
 }
+.btn {
+  background: #bfbfbf;
+  background-image: -webkit-linear-gradient(top, #bfbfbf, #a3a3a3);
+  background-image: -moz-linear-gradient(top, #bfbfbf, #a3a3a3);
+  background-image: -ms-linear-gradient(top, #bfbfbf, #a3a3a3);
+  background-image: -o-linear-gradient(top, #bfbfbf, #a3a3a3);
+  background-image: linear-gradient(to bottom, #bfbfbf, #a3a3a3);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #a3a3a3;
+  background-image: -webkit-linear-gradient(top, #a3a3a3, #adadad);
+  background-image: -moz-linear-gradient(top, #a3a3a3, #adadad);
+  background-image: -ms-linear-gradient(top, #a3a3a3, #adadad);
+  background-image: -o-linear-gradient(top, #a3a3a3, #adadad);
+  background-image: linear-gradient(to bottom, #a3a3a3, #adadad);
+  text-decoration: none;
+}
