@@ -1,6 +1,17 @@
 a {
   color: green;
 }
+#res {
+  left: 300px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #E1E2E3;
+}
 #script {
   padding-top: 5px;
   padding-bottom: 5px;
