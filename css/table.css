@@ -29,6 +29,7 @@
   background-color: #F7F8F9;
   margin-top: 15%;
   text-align: center;
+  min-width: 10px;
 }
 textarea {
   border: 2px solid black;
