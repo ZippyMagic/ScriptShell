@@ -1,11 +1,17 @@
 <link rel="stylesheet" type="text/css" href="css/table.css">
 <link rel="stylesheet" type="text/css" href="css/font.css">
-<div class="topbar">
-  <a id="script" href="https://zippymagic.github.io/ScriptShell/info.html">script.js</a>
-  <a id="res" href="https://zippymagic.github.io/ScriptShell/info.html">result.js</a>
-</div>
-<div class="table">
-  <textarea rows="8" cols="50" id="cInput" id="left" class="f"></textarea>
-  <textarea id="cOutput" rows="8" cols="50" class="f" readonly></textarea>\
-  <button class="btn" onClick="runCode(e); loadScreen();" id="f">Run</button>
+<script src="main/main.js"></script>
+<script src="main/style.js"></script>
+<script src="main/other.js"></script>
+<div class="load"></div>
+<div class="wrapper" id="f">
+  <div class="topbar">
+    <a id="script" href="https://zippymagic.github.io/ScriptShell/info.html">script.js</a>
+    <a id="res" href="https://zippymagic.github.io/ScriptShell/info.html">result.js</a>
+  </div>
+  <div class="table">
+    <textarea rows="8" cols="50" id="cInput" id="left" class="f"></textarea>
+    <textarea id="cOutput" rows="8" cols="50" class="f" readonly></textarea>
+  </div>
+  <button class="btn" onClick="runCode(e);" id="f">Run</button>
 </div>
