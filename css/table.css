@@ -65,10 +65,6 @@ a {
   float: left;
   display: inline-block;
 }
-.right {
-  float: left;
-  display: inline-block;
-}
 .btn {
   background: #bfbfbf;
   background-image: -webkit-linear-gradient(top, #bfbfbf, #a3a3a3);
@@ -80,7 +76,7 @@ a {
   -moz-border-radius: 8;
   border-radius: 8px;
   color: #000000;
-  font-size: 12px;
+  font-size: 16px;
   padding: 10px 20px 10px 20px;
   border: solid #000000 2px;
   text-decoration: none;
