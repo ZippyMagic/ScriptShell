@@ -1,8 +1,10 @@
 .left {
   text-align: left;
   position: left;
+  float: left;
 }
 .right {
   text-align: right;
   position: right;
+  float: left;
 }
