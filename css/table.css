@@ -1,3 +1,6 @@
+a {
+  color: green;
+}
 #script {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -6,6 +9,7 @@
   border: 2px solid black;
   border-bottom: none;
   border-radius: 10px;
+  background-color: #E1E2E3;
 }
 .table {
   position: flex;
