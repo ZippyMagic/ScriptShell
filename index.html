@@ -16,5 +16,5 @@
       <textarea rows="8" cols="50" id="cInput" id="left" class="f"></textarea>
       <textarea id="cOutput" rows="8" cols="50" class="f" readonly></textarea>
     </div>
-    <button class="btn" onClick="runCode(e);" id="f">Run</button>
+    <button class="btn" onClick="runCode(document.getElementById('cInput').value);" id="f">Run</button>
   </div>
