@@ -14,6 +14,20 @@ Version {{version}}
     var IN_CODE = document.getElementById("codeshell-in-code").innerHTML;
     var OUT_CODE = document.getElementById("codeshell-out-code").innerHTML;
     var TABLE_SIZE = document.getElementById("codeshell-table-size").innerHTML;
+    // Begin loading scripts and CSS
+    var ELEMENT = document.createElement('script');
+    ELEMENT.src = 'https://raw.githubusercontent.com/ZippyMagic/ScriptShell/master/main/main.js';
+    
+    var ELEMENT = document.createElement('link');
+    ELEMENT.rel = 'stylesheet';
+    ELEMENT.type = 'text/css'
+    ELEMENT.href = 'https://raw.githubusercontent.com/ZippyMagic/ScriptShell/master/css/table.css';
+  
+    var ELEMENT = document.createElement('link');
+    ELEMENT.rel = 'stylesheet';
+    ELEMENT.type = 'text/css'
+    ELEMENT.href = 'https://raw.githubusercontent.com/ZippyMagic/ScriptShell/master/css/font.css';
+  
     // Begin Creation
     
     var ELEMENT = document.createElement('div');
