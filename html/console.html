@@ -1,14 +1,23 @@
 <link rel="stylesheet" type="text/css" href="css/table.css">
 <link rel="stylesheet" type="text/css" href="css/font.css">
-<fieldset>
-  <div class="table">
-    <div id="frame">
-      <div id="left">
-        <input type="text" id="pInput" rows="10">
-        <div id="right">
-          <input type="text" id="pOutput" rows="10" readonly>
-        </div>
-      </div>
+<script src="main/main.js"></script>
+<script src="main/style.js"></script>
+<script src="main/other.js"></script>
+<script>
+  setTimer();
+</script>
+<div id="wrapper" id="f">
+  <div id="loader"></div>
+  <div id="wrapper-contents">
+    <div class="topbar">
+      <a id="script" href="https://zippymagic.github.io/ScriptShell/info.html" class="codeshell">script.js</a>
+      <a id="res" href="https://zippymagic.github.io/ScriptShell/info.html" class="codeshell">result.js</a>
     </div>
+    <div class="table">
+      <textarea rows="8" cols="50" id="cInput" id="left" class="codeshell"></textarea>
+      <textarea id="cOutput" rows="8" cols="50" class="codeshell" readonly></textarea>
+    </div>
+    <button class="btn" onClick="runCode(document.getElementById('cInput').value);" id="f">Run</button>
   </div>
-</fieldset>
+</div>
+<p class="f" id="cred" style="float: center; position: center; text-align: center;" class="codeshell">Powered by <a href="https://github.com/ZippyMagic/CodeShell/" class="codeshell">CodeShell™</a></p>
