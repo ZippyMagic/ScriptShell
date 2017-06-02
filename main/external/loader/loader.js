@@ -10,8 +10,7 @@ Version {{version}}
   
   var MIN_HEIGHT = "300";
   
-  
-  function insertElements() {
+
     var IN_CODE = document.getElementById("codeshell-in-code").innerHTML;
     var OUT_CODE = document.getElementById("codeshell-out-code").innerHTML;
     var TABLE_SIZE = document.getElementById("codeshell-table-size").innerHTML;
@@ -80,5 +79,4 @@ Version {{version}}
     ELEMENT.href = 'https://github.com/ZippyMagic/CodeShell';
     ELEMENT.class = 'codeshell';
     document.getElementById('cred').appendChild(ELEMENT);
-  }
 }
