@@ -93,4 +93,4 @@ Version {{version}}
     ELEMENT.href = 'https://github.com/ZippyMagic/CodeShell';
     ELEMENT.class = 'codeshell';
     document.getElementById('cred').appendChild(ELEMENT);
-}
+})();
